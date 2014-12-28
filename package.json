@@ -1,0 +1,32 @@
+{
+  "name": "random-banner",
+  "description": "Simple, random banner player. Add some style to your console.",
+  "version": "0.0.4",
+  "author": {
+    "name": "Shannon Code",
+    "email": "shannon@zerotrust.co",
+    "url": "http://zerotrust.co"
+  },
+  "bugs": {
+    "url": "https://github.com/ZeroTrust/random-banner/issues"
+  },
+  "dependencies": {
+    "colors": "^1.0.3",
+    "line-reader": "^0.2.4",
+    "fs": "^0.0.2"
+  },
+  "homepage": "http://zerotrust.co",
+  "keywords": [
+    "ascii",
+    "banner"
+  ],
+  "license": "MIT",
+  "main": "banner.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZeroTrust/random-banner.git"
+  },
+  "scripts": {
+    "start": "node banner.js"
+  }
+}
